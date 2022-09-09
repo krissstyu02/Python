@@ -1,18 +1,16 @@
 
 #ЛР2
-a=int(input('Введите 1 координату первой точки='))
-b=int(input('Введите 2 координату первой точки='))
-c=(a,b)
-d=int(input('Введите 1 координату второй точки='))
-e=int(input('Введите 2 координату второй точки='))
-f=(d,e)
-if int(c[1])+2==int(f[1]) and int(c[0])-1==int(f[0]) :
+a=int(input('Введите координату первой точки по вертикали='))
+b=int(input('Введите координату первой точки по горизонтали='))
+d=int(input('Введите координату второй точки по вертикали='))
+e=int(input('Введите  координату второй точки по горизонтали='))
+if a+2==d and b-1==e :
     print('True')
-elif int(c[1])+2==int(f[1]) and int(c[0])+1==int(f[0]) :
+elif a+2==d and b+1==e :
     print('True')
-elif int(c[1])-2==int(f[1]) and int(c[0])+1==int(f[0]) :
+elif a-2==d and b+1==e :
     print('True')
-elif int(c[1])-2==int(f[1]) and int(c[0])-1==int(f[0]) :
+elif a-2==d and b-1==e :
     print('True')
 else : print('False')
 
