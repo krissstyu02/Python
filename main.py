@@ -28,3 +28,8 @@ elif int(c[1])-2==int(f[1]) and int(c[0])-1==int(f[0]) :
     print('True')
 else : print('False')
 
+#ЛР 3
+h=input('Введите высоту шеста=')
+h=input('Введите высоту шеста=')
+h=input('Введите высоту шеста=')
+
