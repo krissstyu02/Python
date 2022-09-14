@@ -8,8 +8,7 @@ while i <= x:
     if x % i == 0 and i<=9:
         print(i)
         break
-else:
-    print('Таких делителей не существует')
+
 
 
 
