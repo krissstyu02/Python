@@ -1,5 +1,5 @@
 #ЛР8
-#ОФункция степени
+#Функция степени
 def power(a, n):
     res = 1
     for i in range(abs(n)):

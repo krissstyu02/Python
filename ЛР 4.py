@@ -2,9 +2,9 @@
 a=int(input('Введите первое число='))
 b=int(input('Введите второе  число='))
 if(a<b) :
-    for i in range(a,b+1):
+    for i in range(a,b+1): #в порядке возрастания
         print(i)
 else :
-    for i in range(a,b-1,-1):
+    for i in range(a,b-1,-1): #в порядке убывания
         print(i)
 
