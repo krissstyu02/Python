@@ -8,3 +8,4 @@ for i in range(len(a)):
     else:
         s.add(a[i])
         print('NO')
+
