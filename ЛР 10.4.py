@@ -9,3 +9,4 @@ for i in range(len(a)):
         s.add(a[i])
         print('NO')
 
+
